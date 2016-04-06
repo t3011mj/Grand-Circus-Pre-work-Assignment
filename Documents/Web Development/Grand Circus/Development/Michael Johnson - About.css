@@ -1,0 +1,68 @@
+@font-face {
+	font-family: 'FFF Tusj';
+	src: url(FFF_Tusj.ttf) format('truetype');
+}
+
+body {
+    background-image: url("Water Background.jpg");
+	background-size: 100%;
+	color: #FFFFEF;
+	opacity: 0.9;
+	font family: "Times New Roman", "Verdana New", Serif;
+    font-size: 20px;}
+
+
+h1 {
+	font-family: FFF Tusj;	
+	font-size: 50px;
+	text-align: center;
+}
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+ul.highlights {
+	font-size: 22px;
+}
+
+strong {
+	font-size: 22px;
+}
+div {
+	position: center;
+}
+nav {
+	background-color: #483D8B;
+	border: 1px solid #dedede;
+	border-radius: 4px;
+	box-shadow: 0 2px 2px - 1px rgba(0, 0, 0, 055);
+	color: #888;
+	margin: 8px 22px 8px 22px;
+	overflow: hidden;
+	width: 100%;
+	text-align: center;
+
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+nav ul li {
+	display: inline-block;
+	list-style-type: none;
+
+	-webkit-transition: all 0.2s;
+	-mos-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+nav ul li a {
+	color: #FFFFFF;
+	display: block;
+	line-height: 56px;
+	padding: 0 24px;
+	text-decoration: none;
+	font-size: 24px;
+}

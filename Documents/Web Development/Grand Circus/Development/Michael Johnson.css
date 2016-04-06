@@ -1,0 +1,78 @@
+
+body {
+	background-image: url("Water Background.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	color: #FFFFEF;
+	opacity: 0.9;
+	font family: Verdana Pro;
+}
+
+h1 {
+		font-family: "Great vibes", cursive;	
+		font-size: 5em;
+		font-weight: bold;
+		text-align: left;
+		text-shadow: 5px 5px 5px #c0c0c0;
+
+}
+p {
+		font-size: 20px
+}
+
+li {
+	    margin-left: 40px;
+	    padding: 5px;
+	    font-size: 18px;
+}
+img {		
+	padding: 8px;
+	border: 5px solid #FFFFFF ;
+	border-radius: 10px;
+	background-color: #DCDCDC;
+	margin-left: 25px;
+}	
+.abstractLine {
+	border: none ;
+	background-color: transparent;
+	margin-left: 25px;
+	opacity: .4;
+}
+
+a {
+	color: #FFFFFF;
+}
+nav {
+	background-color: #483D8B;
+	border: 1px solid #dedede;
+	border-radius: 4px;
+	box-shadow: 0 2px 2px - 1px rgba(0, 0, 0, 055);
+	color: #888;
+	margin: 8px 22px 8px 22px;
+	overflow: hidden;
+	width: 100%;
+	text-align: center;
+
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+nav ul li {
+	display: inline-block;
+	list-style-type: none;
+
+	-webkit-transition: all 0.2s;
+	-mos-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+nav ul li a {
+	color: #FFFFFF;
+	display: block;
+	line-height: 56px;
+	padding: 0 24px;
+	text-decoration: none;
+	font-size: 24px;
+}
